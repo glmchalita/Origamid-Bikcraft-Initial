@@ -20,4 +20,4 @@ Para este projeto, foi utilizado HTML e CSS.
 ## Atualização
 
 - Refactor
-Nesta etapa do projeto, foi refatorado algumas tags semântica ao HTML e utilizado outras técnicas de CSS para a customização de botões e listas, como *hover*, *active* e *::before*.
+> Nesta etapa do projeto, foi refatorado algumas tags semântica ao HTML e utilizado outras técnicas de CSS para a customização de botões e listas, como *hover*, *active* e *::before*.
