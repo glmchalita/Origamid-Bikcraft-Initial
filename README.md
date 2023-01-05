@@ -20,4 +20,8 @@ Para este projeto, foi utilizado HTML e CSS.
 ## Atualização
 
 - Refactor
-> Nesta etapa do projeto, foi refatorado algumas tags semântica ao HTML e utilizado outras técnicas de CSS para a customização de botões e listas, como *hover*, *active* e *::before*.
+
+  > Nesta etapa do projeto, foi refatorado algumas tags semântica ao HTML e utilizado outras técnicas de CSS para a customização de botões e listas, como _hover_, _active_ e _::before_.
+
+- Responsive
+  > Nesta atualização foi realizado o uso de _media queries_ para tornar o site responsivo utilizando apenas HTML e CSS.
