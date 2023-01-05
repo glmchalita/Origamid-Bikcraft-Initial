@@ -16,3 +16,8 @@ Para este projeto, foi utilizado HTML e CSS.
 
 - Clone o repositório
 - Execute o arquivo _index.html_ através de um navegador
+
+## Atualização
+
+- Refactor
+Nesta etapa do projeto, foi refatorado algumas tags semântica ao HTML e utilizado outras técnicas de CSS para a customização de botões e listas, como *hover*, *active* e *::before*.
