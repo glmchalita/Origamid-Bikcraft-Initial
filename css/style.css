@@ -96,6 +96,11 @@ p {
   font-size: 2rem;
 }
 
+.introducao-cover img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .botao {
   background-color: #ee2211;
   color: #ffffff;
@@ -147,4 +152,60 @@ p {
   width: 100%;
   text-align: center;
   padding: 2.5rem;
+}
+
+@media (max-width: 1000px) {
+  .conteudo-vantagem {
+    grid-template-columns: 1fr;
+  }
+
+  .subtitulo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    gap: 1.85rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+
+  .header {
+    gap: 1.85rem;
+    margin-top: 1.85rem;
+  }
+
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao {
+    text-align: left;
+    justify-items: start;
+  }
+
+  .introducao h1 {
+    font-size: 1.8rem;
+  }
+
+  .introducao::before {
+    display: none;
+  }
+
+  .subtitulo {
+    font-size: 3rem;
+  }
+  .vantagens-item {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 1.5rem;
+  }
 }
